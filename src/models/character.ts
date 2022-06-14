@@ -1,5 +1,7 @@
 import { Counselor } from "./counselor";
 import { King } from "./king";
+import { Knight } from "./knight";
+import { Squire } from "./squire";
 
 export interface iCharacter{
     id: number;
@@ -12,7 +14,7 @@ export interface iCharacter{
     weapon?: string;
     skill?: number;
     submission?: number;
-    // lord?: Knight;
+    lord?: Knight;
     chief?: Character;
 }
 
